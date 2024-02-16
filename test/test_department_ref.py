@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.department_ref import DepartmentRef  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.department_ref import DepartmentRef  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestDepartmentRef(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestDepartmentRef(unittest.TestCase):
     def testDepartmentRef(self):
         """Test DepartmentRef"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.department_ref.DepartmentRef()  # noqa: E501
+        # model = maxpanda_python_sdk.models.department_ref.DepartmentRef()  # noqa: E501
         pass
 
 

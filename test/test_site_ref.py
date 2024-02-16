@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.site_ref import SiteRef  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.site_ref import SiteRef  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestSiteRef(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestSiteRef(unittest.TestCase):
     def testSiteRef(self):
         """Test SiteRef"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.site_ref.SiteRef()  # noqa: E501
+        # model = maxpanda_python_sdk.models.site_ref.SiteRef()  # noqa: E501
         pass
 
 

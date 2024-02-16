@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.po_template_response_model import POTemplateResponseModel  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.po_template_response_model import POTemplateResponseModel  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestPOTemplateResponseModel(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestPOTemplateResponseModel(unittest.TestCase):
     def testPOTemplateResponseModel(self):
         """Test POTemplateResponseModel"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.po_template_response_model.POTemplateResponseModel()  # noqa: E501
+        # model = maxpanda_python_sdk.models.po_template_response_model.POTemplateResponseModel()  # noqa: E501
         pass
 
 

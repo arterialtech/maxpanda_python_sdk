@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.update_customer_invoice import UpdateCustomerInvoice  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.update_customer_invoice import UpdateCustomerInvoice  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestUpdateCustomerInvoice(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestUpdateCustomerInvoice(unittest.TestCase):
     def testUpdateCustomerInvoice(self):
         """Test UpdateCustomerInvoice"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.update_customer_invoice.UpdateCustomerInvoice()  # noqa: E501
+        # model = maxpanda_python_sdk.models.update_customer_invoice.UpdateCustomerInvoice()  # noqa: E501
         pass
 
 

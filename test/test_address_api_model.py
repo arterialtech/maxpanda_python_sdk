@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.address_api_model import AddressAPIModel  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.address_api_model import AddressAPIModel  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestAddressAPIModel(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestAddressAPIModel(unittest.TestCase):
     def testAddressAPIModel(self):
         """Test AddressAPIModel"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.address_api_model.AddressAPIModel()  # noqa: E501
+        # model = maxpanda_python_sdk.models.address_api_model.AddressAPIModel()  # noqa: E501
         pass
 
 

@@ -1,4 +1,4 @@
-# swagger_client.CustomerApi
+# maxpanda_python_sdk.CustomerApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -20,12 +20,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CustomerApi()
+api_instance = maxpanda_python_sdk.CustomerApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -72,12 +72,12 @@ Get a specific customer
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CustomerApi()
+api_instance = maxpanda_python_sdk.CustomerApi()
 id = 56 # int | The customer id to retrieve
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -124,13 +124,13 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CustomerApi()
-body = swagger_client.CreateCustomerModel() # CreateCustomerModel | The Customer to be added
+api_instance = maxpanda_python_sdk.CustomerApi()
+body = maxpanda_python_sdk.CreateCustomerModel() # CreateCustomerModel | The Customer to be added
 
 try:
     # Create a new customer
@@ -170,13 +170,13 @@ Update an existing customer.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CustomerApi()
-body = swagger_client.UpdateCustomerModel() # UpdateCustomerModel | The customer to be updated
+api_instance = maxpanda_python_sdk.CustomerApi()
+body = maxpanda_python_sdk.UpdateCustomerModel() # UpdateCustomerModel | The customer to be updated
 
 try:
     # Update an existing customer.

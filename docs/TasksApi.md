@@ -1,4 +1,4 @@
-# swagger_client.TasksApi
+# maxpanda_python_sdk.TasksApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -20,12 +20,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TasksApi()
+api_instance = maxpanda_python_sdk.TasksApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -72,12 +72,12 @@ Get a specific Task
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TasksApi()
+api_instance = maxpanda_python_sdk.TasksApi()
 id = 56 # int | The task id to retrieve
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -122,13 +122,13 @@ Create a new Task
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TasksApi()
-body = swagger_client.CreateTaskModel() # CreateTaskModel | 
+api_instance = maxpanda_python_sdk.TasksApi()
+body = maxpanda_python_sdk.CreateTaskModel() # CreateTaskModel | 
 
 try:
     # Create a new Task
@@ -168,13 +168,13 @@ Update an existing Task
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TasksApi()
-body = swagger_client.UpdateTaskModel() # UpdateTaskModel | 
+api_instance = maxpanda_python_sdk.TasksApi()
+body = maxpanda_python_sdk.UpdateTaskModel() # UpdateTaskModel | 
 
 try:
     # Update an existing Task

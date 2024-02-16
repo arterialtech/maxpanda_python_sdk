@@ -1,4 +1,4 @@
-# swagger_client.POAddressApi
+# maxpanda_python_sdk.POAddressApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -18,13 +18,13 @@ Create a new Purchase Order Address
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.POAddressApi()
-body = swagger_client.CreatePOAddress() # CreatePOAddress | Details of Purchase Order Address
+api_instance = maxpanda_python_sdk.POAddressApi()
+body = maxpanda_python_sdk.CreatePOAddress() # CreatePOAddress | Details of Purchase Order Address
 
 try:
     # Create a new Purchase Order Address
@@ -64,12 +64,12 @@ Get Purchase Order Address
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.POAddressApi()
+api_instance = maxpanda_python_sdk.POAddressApi()
 site_id = 56 # int | 
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -116,12 +116,12 @@ Get a specific PO Address
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.POAddressApi()
+api_instance = maxpanda_python_sdk.POAddressApi()
 id = 56 # int | POAddress Id
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -166,13 +166,13 @@ Update an existing Purchase Order Address
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.POAddressApi()
-body = swagger_client.UpdatePOAddress() # UpdatePOAddress | Details of Purchase Order Address
+api_instance = maxpanda_python_sdk.POAddressApi()
+body = maxpanda_python_sdk.UpdatePOAddress() # UpdatePOAddress | Details of Purchase Order Address
 
 try:
     # Update an existing Purchase Order Address

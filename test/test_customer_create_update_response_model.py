@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.customer_create_update_response_model import CustomerCreateUpdateResponseModel  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.customer_create_update_response_model import CustomerCreateUpdateResponseModel  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestCustomerCreateUpdateResponseModel(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCustomerCreateUpdateResponseModel(unittest.TestCase):
     def testCustomerCreateUpdateResponseModel(self):
         """Test CustomerCreateUpdateResponseModel"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.customer_create_update_response_model.CustomerCreateUpdateResponseModel()  # noqa: E501
+        # model = maxpanda_python_sdk.models.customer_create_update_response_model.CustomerCreateUpdateResponseModel()  # noqa: E501
         pass
 
 

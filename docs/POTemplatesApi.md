@@ -1,4 +1,4 @@
-# swagger_client.POTemplatesApi
+# maxpanda_python_sdk.POTemplatesApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -18,12 +18,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.POTemplatesApi()
+api_instance = maxpanda_python_sdk.POTemplatesApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -70,12 +70,12 @@ Get a specific Purchase Order Template
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.POTemplatesApi()
+api_instance = maxpanda_python_sdk.POTemplatesApi()
 id = 56 # int | The Purchase Order Template id to retrieve
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields

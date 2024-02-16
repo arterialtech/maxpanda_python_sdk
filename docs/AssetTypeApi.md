@@ -1,4 +1,4 @@
-# swagger_client.AssetTypeApi
+# maxpanda_python_sdk.AssetTypeApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -18,12 +18,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AssetTypeApi()
+api_instance = maxpanda_python_sdk.AssetTypeApi()
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
 page_size = 56 # int | Number of records per page (max=100) (optional)
@@ -68,12 +68,12 @@ Get a specific Asset Type type record
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AssetTypeApi()
+api_instance = maxpanda_python_sdk.AssetTypeApi()
 id = 56 # int | TheAsset Type id to retrieve
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 

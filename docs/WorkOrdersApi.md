@@ -1,4 +1,4 @@
-# swagger_client.WorkOrdersApi
+# maxpanda_python_sdk.WorkOrdersApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -24,13 +24,13 @@ Submit a workorder
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WorkOrdersApi()
-body = swagger_client.Workorder() # Workorder | Workorder details to be submitted
+api_instance = maxpanda_python_sdk.WorkOrdersApi()
+body = maxpanda_python_sdk.Workorder() # Workorder | Workorder details to be submitted
 
 try:
     # Submit a workorder
@@ -70,12 +70,12 @@ Delete Task of Workorder
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WorkOrdersApi()
+api_instance = maxpanda_python_sdk.WorkOrdersApi()
 work_order_id = 56 # int | Id of workorder
 work_order_task_id = 56 # int | Task Id of workorder
 id_company = 56 # int | Company Id
@@ -122,12 +122,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WorkOrdersApi()
+api_instance = maxpanda_python_sdk.WorkOrdersApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 last_week_active_hours = true # bool | Show staff's last week active hours
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -176,12 +176,12 @@ Get a specific work order
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WorkOrdersApi()
+api_instance = maxpanda_python_sdk.WorkOrdersApi()
 id = 56 # int | Workorder Id
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -226,12 +226,12 @@ Get Users To Do WorkOrder List
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WorkOrdersApi()
+api_instance = maxpanda_python_sdk.WorkOrdersApi()
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API (optional)
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -278,12 +278,12 @@ Get Workorders by Status
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WorkOrdersApi()
+api_instance = maxpanda_python_sdk.WorkOrdersApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 status = 56 # int | Status ID can be found in your WorkOrderStatuses API
@@ -332,12 +332,12 @@ Get list of workorders created by an User
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WorkOrdersApi()
+api_instance = maxpanda_python_sdk.WorkOrdersApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 user_id = 56 # int | User ID can be found in your Maxpanda Users index or User API
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -386,12 +386,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WorkOrdersApi()
+api_instance = maxpanda_python_sdk.WorkOrdersApi()
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
 page_size = 56 # int | Number of records per page (max=100) (optional)
 
@@ -434,13 +434,13 @@ Update a workorder
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WorkOrdersApi()
-body = swagger_client.UpdateWorkorder() # UpdateWorkorder | Workorder details to be updated
+api_instance = maxpanda_python_sdk.WorkOrdersApi()
+body = maxpanda_python_sdk.UpdateWorkorder() # UpdateWorkorder | Workorder details to be updated
 
 try:
     # Update a workorder
@@ -480,12 +480,12 @@ Change status of workorder
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.WorkOrdersApi()
+api_instance = maxpanda_python_sdk.WorkOrdersApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 workorder_id = 56 # int | Id of workorder
 new_status = 56 # int | New status of workorder

@@ -1,4 +1,4 @@
-# swagger_client.ServiceTypesApi
+# maxpanda_python_sdk.ServiceTypesApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -20,12 +20,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ServiceTypesApi()
+api_instance = maxpanda_python_sdk.ServiceTypesApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -72,12 +72,12 @@ Get a Service Type
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ServiceTypesApi()
+api_instance = maxpanda_python_sdk.ServiceTypesApi()
 id = 56 # int | The Service Type id to retrieve
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -122,13 +122,13 @@ Create a new service Type
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ServiceTypesApi()
-body = swagger_client.CreateServiceTypeModel() # CreateServiceTypeModel | Details of new service Type
+api_instance = maxpanda_python_sdk.ServiceTypesApi()
+body = maxpanda_python_sdk.CreateServiceTypeModel() # CreateServiceTypeModel | Details of new service Type
 
 try:
     # Create a new service Type
@@ -168,13 +168,13 @@ Update a service Type
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ServiceTypesApi()
-body = swagger_client.UpdateServiceTypeModel() # UpdateServiceTypeModel | Details of service Type
+api_instance = maxpanda_python_sdk.ServiceTypesApi()
+body = maxpanda_python_sdk.UpdateServiceTypeModel() # UpdateServiceTypeModel | Details of service Type
 
 try:
     # Update a service Type

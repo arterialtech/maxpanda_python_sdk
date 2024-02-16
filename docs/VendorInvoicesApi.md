@@ -1,4 +1,4 @@
-# swagger_client.VendorInvoicesApi
+# maxpanda_python_sdk.VendorInvoicesApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -20,12 +20,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.VendorInvoicesApi()
+api_instance = maxpanda_python_sdk.VendorInvoicesApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -72,12 +72,12 @@ Get a specific Vendor Invoice
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.VendorInvoicesApi()
+api_instance = maxpanda_python_sdk.VendorInvoicesApi()
 id = 56 # int | The Vendor Invoice id to retrieve
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -122,13 +122,13 @@ Create an Invoice
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.VendorInvoicesApi()
-body = swagger_client.CreateInvoiceModel() # CreateInvoiceModel | Details of the new invoice
+api_instance = maxpanda_python_sdk.VendorInvoicesApi()
+body = maxpanda_python_sdk.CreateInvoiceModel() # CreateInvoiceModel | Details of the new invoice
 
 try:
     # Create an Invoice
@@ -168,13 +168,13 @@ Update an Invoice
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.VendorInvoicesApi()
-body = swagger_client.UpdateInvoiceModel() # UpdateInvoiceModel | Details of the Invoice
+api_instance = maxpanda_python_sdk.VendorInvoicesApi()
+body = maxpanda_python_sdk.UpdateInvoiceModel() # UpdateInvoiceModel | Details of the Invoice
 
 try:
     # Update an Invoice

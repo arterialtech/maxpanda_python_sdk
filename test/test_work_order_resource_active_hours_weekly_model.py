@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.work_order_resource_active_hours_weekly_model import WorkOrderResourceActiveHoursWeeklyModel  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.work_order_resource_active_hours_weekly_model import WorkOrderResourceActiveHoursWeeklyModel  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestWorkOrderResourceActiveHoursWeeklyModel(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestWorkOrderResourceActiveHoursWeeklyModel(unittest.TestCase):
     def testWorkOrderResourceActiveHoursWeeklyModel(self):
         """Test WorkOrderResourceActiveHoursWeeklyModel"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.work_order_resource_active_hours_weekly_model.WorkOrderResourceActiveHoursWeeklyModel()  # noqa: E501
+        # model = maxpanda_python_sdk.models.work_order_resource_active_hours_weekly_model.WorkOrderResourceActiveHoursWeeklyModel()  # noqa: E501
         pass
 
 

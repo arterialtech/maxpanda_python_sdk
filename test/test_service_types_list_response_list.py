@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.service_types_list_response_list import ServiceTypesListResponseList  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.service_types_list_response_list import ServiceTypesListResponseList  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestServiceTypesListResponseList(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestServiceTypesListResponseList(unittest.TestCase):
     def testServiceTypesListResponseList(self):
         """Test ServiceTypesListResponseList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.service_types_list_response_list.ServiceTypesListResponseList()  # noqa: E501
+        # model = maxpanda_python_sdk.models.service_types_list_response_list.ServiceTypesListResponseList()  # noqa: E501
         pass
 
 

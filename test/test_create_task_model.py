@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_task_model import CreateTaskModel  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.create_task_model import CreateTaskModel  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestCreateTaskModel(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCreateTaskModel(unittest.TestCase):
     def testCreateTaskModel(self):
         """Test CreateTaskModel"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_task_model.CreateTaskModel()  # noqa: E501
+        # model = maxpanda_python_sdk.models.create_task_model.CreateTaskModel()  # noqa: E501
         pass
 
 

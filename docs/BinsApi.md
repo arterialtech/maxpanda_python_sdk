@@ -1,4 +1,4 @@
-# swagger_client.BinsApi
+# maxpanda_python_sdk.BinsApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -20,12 +20,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.BinsApi()
+api_instance = maxpanda_python_sdk.BinsApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -72,12 +72,12 @@ Get a specific Bin
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.BinsApi()
+api_instance = maxpanda_python_sdk.BinsApi()
 id = 56 # int | The Bin id to retrieve
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -122,13 +122,13 @@ Create a Bin
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.BinsApi()
-body = swagger_client.CreateBinModel() # CreateBinModel | Details of the new Bin
+api_instance = maxpanda_python_sdk.BinsApi()
+body = maxpanda_python_sdk.CreateBinModel() # CreateBinModel | Details of the new Bin
 
 try:
     # Create a Bin
@@ -168,13 +168,13 @@ Update a Bin
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.BinsApi()
-body = swagger_client.UpdateBinModel() # UpdateBinModel | Details of the Bin
+api_instance = maxpanda_python_sdk.BinsApi()
+body = maxpanda_python_sdk.UpdateBinModel() # UpdateBinModel | Details of the Bin
 
 try:
     # Update a Bin

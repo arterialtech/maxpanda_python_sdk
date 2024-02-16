@@ -1,4 +1,4 @@
-# swagger_client.PartsApi
+# maxpanda_python_sdk.PartsApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -21,12 +21,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PartsApi()
+api_instance = maxpanda_python_sdk.PartsApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -73,12 +73,12 @@ Get a specific Part
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PartsApi()
+api_instance = maxpanda_python_sdk.PartsApi()
 id = 56 # int | The Part id to retrieve
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -125,12 +125,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PartsApi()
+api_instance = maxpanda_python_sdk.PartsApi()
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
 page_size = 56 # int | Number of records per page (max=100) (optional)
 
@@ -173,13 +173,13 @@ Create a new Part
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PartsApi()
-body = swagger_client.CreatePartModel() # CreatePartModel | Details of new Part
+api_instance = maxpanda_python_sdk.PartsApi()
+body = maxpanda_python_sdk.CreatePartModel() # CreatePartModel | Details of new Part
 
 try:
     # Create a new Part
@@ -219,13 +219,13 @@ Update a Part
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PartsApi()
-body = swagger_client.UpdatePartModel() # UpdatePartModel | Details of Part
+api_instance = maxpanda_python_sdk.PartsApi()
+body = maxpanda_python_sdk.UpdatePartModel() # UpdatePartModel | Details of Part
 
 try:
     # Update a Part

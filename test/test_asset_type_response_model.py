@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.asset_type_response_model import AssetTypeResponseModel  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.asset_type_response_model import AssetTypeResponseModel  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestAssetTypeResponseModel(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestAssetTypeResponseModel(unittest.TestCase):
     def testAssetTypeResponseModel(self):
         """Test AssetTypeResponseModel"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.asset_type_response_model.AssetTypeResponseModel()  # noqa: E501
+        # model = maxpanda_python_sdk.models.asset_type_response_model.AssetTypeResponseModel()  # noqa: E501
         pass
 
 

@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.create_update_bin_model import CreateUpdateBinModel  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.create_update_bin_model import CreateUpdateBinModel  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestCreateUpdateBinModel(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCreateUpdateBinModel(unittest.TestCase):
     def testCreateUpdateBinModel(self):
         """Test CreateUpdateBinModel"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.create_update_bin_model.CreateUpdateBinModel()  # noqa: E501
+        # model = maxpanda_python_sdk.models.create_update_bin_model.CreateUpdateBinModel()  # noqa: E501
         pass
 
 

@@ -1,4 +1,4 @@
-# swagger_client.PartCategoryApi
+# maxpanda_python_sdk.PartCategoryApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -19,13 +19,13 @@ Create a new Part Category
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PartCategoryApi()
-body = swagger_client.CreatePartCategory() # CreatePartCategory | Details of Part Category
+api_instance = maxpanda_python_sdk.PartCategoryApi()
+body = maxpanda_python_sdk.CreatePartCategory() # CreatePartCategory | Details of Part Category
 
 try:
     # Create a new Part Category
@@ -65,12 +65,12 @@ Delete PartCategory of Part
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PartCategoryApi()
+api_instance = maxpanda_python_sdk.PartCategoryApi()
 part_category_id = 56 # int | Id of PartCategory
 
 try:
@@ -113,12 +113,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PartCategoryApi()
+api_instance = maxpanda_python_sdk.PartCategoryApi()
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
 page_size = 56 # int | Number of records per page (max=100) (optional)
@@ -163,12 +163,12 @@ Get a specific Part Category record
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PartCategoryApi()
+api_instance = maxpanda_python_sdk.PartCategoryApi()
 id = 56 # int | The Part category id to retrieve
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 
@@ -211,13 +211,13 @@ Update an existing Part Category
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PartCategoryApi()
-body = swagger_client.UpdatePartCategory() # UpdatePartCategory | Details of Part Category
+api_instance = maxpanda_python_sdk.PartCategoryApi()
+body = maxpanda_python_sdk.UpdatePartCategory() # UpdatePartCategory | Details of Part Category
 
 try:
     # Update an existing Part Category

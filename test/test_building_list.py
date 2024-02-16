@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.building_list import BuildingList  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.building_list import BuildingList  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestBuildingList(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestBuildingList(unittest.TestCase):
     def testBuildingList(self):
         """Test BuildingList"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.building_list.BuildingList()  # noqa: E501
+        # model = maxpanda_python_sdk.models.building_list.BuildingList()  # noqa: E501
         pass
 
 

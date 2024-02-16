@@ -1,4 +1,4 @@
-# swagger_client.LocationApi
+# maxpanda_python_sdk.LocationApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -18,13 +18,13 @@ Create a location
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LocationApi()
-body = swagger_client.Location() # Location | Details of the new location
+api_instance = maxpanda_python_sdk.LocationApi()
+body = maxpanda_python_sdk.Location() # Location | Details of the new location
 
 try:
     # Create a location
@@ -66,12 +66,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LocationApi()
+api_instance = maxpanda_python_sdk.LocationApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -118,12 +118,12 @@ Get a specific location
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LocationApi()
+api_instance = maxpanda_python_sdk.LocationApi()
 id = 56 # int | The location id to retrieve
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -168,13 +168,13 @@ Update a location
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LocationApi()
-body = swagger_client.LocationUpdateModel() # LocationUpdateModel | Details of the new location
+api_instance = maxpanda_python_sdk.LocationApi()
+body = maxpanda_python_sdk.LocationUpdateModel() # LocationUpdateModel | Details of the new location
 
 try:
     # Update a location

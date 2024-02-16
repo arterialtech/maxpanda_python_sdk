@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.location_api import LocationApi  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.api.location_api import LocationApi  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestLocationApi(unittest.TestCase):

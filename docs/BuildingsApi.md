@@ -1,4 +1,4 @@
-# swagger_client.BuildingsApi
+# maxpanda_python_sdk.BuildingsApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -18,13 +18,13 @@ Create a new Building
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.BuildingsApi()
-body = swagger_client.BuildingCreateModel() # BuildingCreateModel | Details of the new Building
+api_instance = maxpanda_python_sdk.BuildingsApi()
+body = maxpanda_python_sdk.BuildingCreateModel() # BuildingCreateModel | Details of the new Building
 
 try:
     # Create a new Building
@@ -64,12 +64,12 @@ Get a specific Building
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.BuildingsApi()
+api_instance = maxpanda_python_sdk.BuildingsApi()
 id = 56 # int | The building id to retrieve
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -116,12 +116,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.BuildingsApi()
+api_instance = maxpanda_python_sdk.BuildingsApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -168,13 +168,13 @@ Update specific attributes of a given building
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.BuildingsApi()
-body = swagger_client.BuildingUpdateModel() # BuildingUpdateModel | Building details can be found in Building API
+api_instance = maxpanda_python_sdk.BuildingsApi()
+body = maxpanda_python_sdk.BuildingUpdateModel() # BuildingUpdateModel | Building details can be found in Building API
 
 try:
     # Update specific attributes of a given building

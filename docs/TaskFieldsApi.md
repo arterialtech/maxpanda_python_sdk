@@ -1,4 +1,4 @@
-# swagger_client.TaskFieldsApi
+# maxpanda_python_sdk.TaskFieldsApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -18,13 +18,13 @@ Create new Field for a Task
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TaskFieldsApi()
-body = swagger_client.CreateTaskTemplateField() # CreateTaskTemplateField | Details of Field
+api_instance = maxpanda_python_sdk.TaskFieldsApi()
+body = maxpanda_python_sdk.CreateTaskTemplateField() # CreateTaskTemplateField | Details of Field
 
 try:
     # Create new Field for a Task
@@ -64,12 +64,12 @@ Get Fields associated with a Task
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TaskFieldsApi()
+api_instance = maxpanda_python_sdk.TaskFieldsApi()
 task_id = 56 # int | Task Id can be from Task Index or Task API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -116,12 +116,12 @@ Get Field associated with a Task
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TaskFieldsApi()
+api_instance = maxpanda_python_sdk.TaskFieldsApi()
 id = 56 # int | Field Id of Task
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 
@@ -164,13 +164,13 @@ Update Task Field
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.TaskFieldsApi()
-body = swagger_client.UpdateTaskTemplateField() # UpdateTaskTemplateField | Details of Task Field
+api_instance = maxpanda_python_sdk.TaskFieldsApi()
+body = maxpanda_python_sdk.UpdateTaskTemplateField() # UpdateTaskTemplateField | Details of Task Field
 
 try:
     # Update Task Field

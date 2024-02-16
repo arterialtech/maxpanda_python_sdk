@@ -1,4 +1,4 @@
-# swagger_client.CustomerInvoicesApi
+# maxpanda_python_sdk.CustomerInvoicesApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -18,13 +18,13 @@ Create a new customer invoice.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CustomerInvoicesApi()
-body = swagger_client.CreateCustomerInvoice() # CreateCustomerInvoice | The Customer invoice to be added
+api_instance = maxpanda_python_sdk.CustomerInvoicesApi()
+body = maxpanda_python_sdk.CreateCustomerInvoice() # CreateCustomerInvoice | The Customer invoice to be added
 
 try:
     # Create a new customer invoice.
@@ -64,13 +64,13 @@ Update Customer Invoice
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CustomerInvoicesApi()
-body = swagger_client.UpdateCustomerInvoice() # UpdateCustomerInvoice | 
+api_instance = maxpanda_python_sdk.CustomerInvoicesApi()
+body = maxpanda_python_sdk.UpdateCustomerInvoice() # UpdateCustomerInvoice | 
 
 try:
     # Update Customer Invoice
@@ -110,12 +110,12 @@ Get list of Customer Invoices
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CustomerInvoicesApi()
+api_instance = maxpanda_python_sdk.CustomerInvoicesApi()
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
 page_size = 56 # int | Number of records per page (max=100) (optional)
@@ -160,12 +160,12 @@ Get a specific Customer Invoice
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CustomerInvoicesApi()
+api_instance = maxpanda_python_sdk.CustomerInvoicesApi()
 id = 56 # int | Invoice ID can be found in your Maxpanda Customer Invoice index or Customer Invoice API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 

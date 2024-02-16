@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.work_order_category_response_model import WorkOrderCategoryResponseModel  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.work_order_category_response_model import WorkOrderCategoryResponseModel  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestWorkOrderCategoryResponseModel(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestWorkOrderCategoryResponseModel(unittest.TestCase):
     def testWorkOrderCategoryResponseModel(self):
         """Test WorkOrderCategoryResponseModel"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.work_order_category_response_model.WorkOrderCategoryResponseModel()  # noqa: E501
+        # model = maxpanda_python_sdk.models.work_order_category_response_model.WorkOrderCategoryResponseModel()  # noqa: E501
         pass
 
 

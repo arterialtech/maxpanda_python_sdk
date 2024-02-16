@@ -1,4 +1,4 @@
-# swagger_client.AssetsApi
+# maxpanda_python_sdk.AssetsApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -18,13 +18,13 @@ Create an Asset
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AssetsApi()
-body = swagger_client.Asset() # Asset | Details of the new Asset
+api_instance = maxpanda_python_sdk.AssetsApi()
+body = maxpanda_python_sdk.Asset() # Asset | Details of the new Asset
 
 try:
     # Create an Asset
@@ -66,12 +66,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AssetsApi()
+api_instance = maxpanda_python_sdk.AssetsApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -118,12 +118,12 @@ Get a specific Asset
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AssetsApi()
+api_instance = maxpanda_python_sdk.AssetsApi()
 id = 56 # int | The asset id to retrieve
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -168,13 +168,13 @@ Update an Asset
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AssetsApi()
-body = swagger_client.UpdateAsset() # UpdateAsset | Details of the Asset
+api_instance = maxpanda_python_sdk.AssetsApi()
+body = maxpanda_python_sdk.UpdateAsset() # UpdateAsset | Details of the Asset
 
 try:
     # Update an Asset

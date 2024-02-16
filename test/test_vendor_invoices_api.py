@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.vendor_invoices_api import VendorInvoicesApi  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.api.vendor_invoices_api import VendorInvoicesApi  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestVendorInvoicesApi(unittest.TestCase):

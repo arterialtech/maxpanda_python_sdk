@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.workorder_ref import WorkorderRef  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.workorder_ref import WorkorderRef  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestWorkorderRef(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestWorkorderRef(unittest.TestCase):
     def testWorkorderRef(self):
         """Test WorkorderRef"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.workorder_ref.WorkorderRef()  # noqa: E501
+        # model = maxpanda_python_sdk.models.workorder_ref.WorkorderRef()  # noqa: E501
         pass
 
 

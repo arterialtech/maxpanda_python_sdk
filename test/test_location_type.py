@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.location_type import LocationType  # noqa: E501
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.models.location_type import LocationType  # noqa: E501
+from maxpanda_python_sdk.rest import ApiException
 
 
 class TestLocationType(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestLocationType(unittest.TestCase):
     def testLocationType(self):
         """Test LocationType"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.location_type.LocationType()  # noqa: E501
+        # model = maxpanda_python_sdk.models.location_type.LocationType()  # noqa: E501
         pass
 
 

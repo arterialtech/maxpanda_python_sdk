@@ -1,4 +1,4 @@
-# swagger_client.PurchaseOrdersApi
+# maxpanda_python_sdk.PurchaseOrdersApi
 
 All URIs are relative to *https://api.maxpanda.com/*
 
@@ -22,12 +22,12 @@ The default list will return the first 25 records.  The NextPageUrl property wil
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PurchaseOrdersApi()
+api_instance = maxpanda_python_sdk.PurchaseOrdersApi()
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -74,12 +74,12 @@ Get a specific Purchase Order
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PurchaseOrdersApi()
+api_instance = maxpanda_python_sdk.PurchaseOrdersApi()
 id = 56 # int | The Purchase Order id to retrieve
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -124,12 +124,12 @@ Get Purchase Order Statuses
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PurchaseOrdersApi()
+api_instance = maxpanda_python_sdk.PurchaseOrdersApi()
 
 try:
     # Get Purchase Order Statuses
@@ -166,13 +166,13 @@ Create a new Purchase Order
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PurchaseOrdersApi()
-body = swagger_client.CreatePurchaseOrder() # CreatePurchaseOrder | Details of new Purchase Order
+api_instance = maxpanda_python_sdk.PurchaseOrdersApi()
+body = maxpanda_python_sdk.CreatePurchaseOrder() # CreatePurchaseOrder | Details of new Purchase Order
 
 try:
     # Create a new Purchase Order
@@ -212,13 +212,13 @@ Update a Purchase Order
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PurchaseOrdersApi()
-body = swagger_client.UpdatePurchaseOrder() # UpdatePurchaseOrder | Details of Purchase Order
+api_instance = maxpanda_python_sdk.PurchaseOrdersApi()
+body = maxpanda_python_sdk.UpdatePurchaseOrder() # UpdatePurchaseOrder | Details of Purchase Order
 
 try:
     # Update a Purchase Order
@@ -258,12 +258,12 @@ Update Status of Purchase Order
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import maxpanda_python_sdk
+from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PurchaseOrdersApi()
+api_instance = maxpanda_python_sdk.PurchaseOrdersApi()
 purchase_order_id = 56 # int | Purchase Order Id
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 new_status = 56 # int | Status ID can be found in Purchase Order Status API
