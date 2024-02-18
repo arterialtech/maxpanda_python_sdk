@@ -117,7 +117,7 @@ class WorkOrderPriorityApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/Company/WorkOrderPriorities', 'GET',
@@ -218,7 +218,7 @@ class WorkOrderPriorityApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/Company/WorkOrderPriority/id', 'GET',

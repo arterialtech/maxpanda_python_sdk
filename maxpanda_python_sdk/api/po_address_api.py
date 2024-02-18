@@ -111,7 +111,7 @@ class POAddressApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/Company/POAddress', 'POST',
@@ -220,7 +220,7 @@ class POAddressApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/Company/POAddress', 'GET',
@@ -329,7 +329,7 @@ class POAddressApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/Company/POAddress/id', 'GET',
@@ -426,7 +426,7 @@ class POAddressApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/Company/POAddress', 'PUT',

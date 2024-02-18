@@ -125,7 +125,7 @@ class VendorInvoicesApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/VendorInvoices', 'GET',
@@ -234,7 +234,7 @@ class VendorInvoicesApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/VendorInvoice/id', 'GET',
@@ -331,7 +331,7 @@ class VendorInvoicesApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/VendorInvoice', 'POST',
@@ -428,7 +428,7 @@ class VendorInvoicesApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/VendorInvoice', 'PUT',

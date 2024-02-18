@@ -111,7 +111,7 @@ class LocationApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/Location', 'POST',
@@ -222,7 +222,7 @@ class LocationApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/Locations', 'GET',
@@ -331,7 +331,7 @@ class LocationApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/Location/id', 'GET',
@@ -428,7 +428,7 @@ class LocationApi(object):
             ['application/json', 'text/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = []  # noqa: E501
+        auth_settings = ['ApiKeyHeader']  # noqa: E501
 
         return self.api_client.call_api(
             '/v1/Location', 'PUT',

@@ -18,6 +18,14 @@
   "schemes": [
     "https"
   ],
+  "security": [
+    {
+      "ApiKeyHeader": [
+        "write",
+        "read"
+      ]
+    }
+  ],
   "paths": {
     "/v1/Company/AssetStatuses": {
       "get": {
@@ -11900,10 +11908,10 @@
     }
   },
   "securityDefinitions": {
-    "Authorization": {
+    "ApiKeyHeader": {
       "type": "apiKey",
       "description": "API Key Authentication",
-      "name": "Authorization",
+      "name": "X-API-KEY",
       "in": "header"
     }
   }

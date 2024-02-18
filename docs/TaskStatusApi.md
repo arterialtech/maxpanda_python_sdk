@@ -21,8 +21,14 @@ import maxpanda_python_sdk
 from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: ApiKeyHeader
+configuration = maxpanda_python_sdk.Configuration()
+configuration.api_key['X-API-KEY'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['X-API-KEY'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = maxpanda_python_sdk.TaskStatusApi()
+api_instance = maxpanda_python_sdk.TaskStatusApi(maxpanda_python_sdk.ApiClient(configuration))
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
 page_size = 56 # int | Number of records per page (max=100) (optional)
 
@@ -47,7 +53,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[ApiKeyHeader](../README.md#ApiKeyHeader)
 
 ### HTTP request headers
 

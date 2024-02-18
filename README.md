@@ -52,6 +52,12 @@ import maxpanda_python_sdk
 from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: ApiKeyHeader
+configuration = maxpanda_python_sdk.Configuration()
+configuration.api_key['X-API-KEY'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['X-API-KEY'] = 'Bearer'
+
 # create an instance of the API class
 api_instance = maxpanda_python_sdk.AssetStatusApi(maxpanda_python_sdk.ApiClient(configuration))
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -64,6 +70,12 @@ try:
     pprint(api_response)
 except ApiException as e:
     print("Exception when calling AssetStatusApi->asset_statuses_get: %s\n" % e)
+
+# Configure API key authorization: ApiKeyHeader
+configuration = maxpanda_python_sdk.Configuration()
+configuration.api_key['X-API-KEY'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['X-API-KEY'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = maxpanda_python_sdk.AssetStatusApi(maxpanda_python_sdk.ApiClient(configuration))
@@ -372,10 +384,10 @@ Class | Method | HTTP request | Description
 ## Documentation For Authorization
 
 
-## Authorization
+## ApiKeyHeader
 
 - **Type**: API key
-- **API key parameter name**: Authorization
+- **API key parameter name**: X-API-KEY
 - **Location**: HTTP header
 
 

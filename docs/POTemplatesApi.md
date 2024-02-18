@@ -22,8 +22,14 @@ import maxpanda_python_sdk
 from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: ApiKeyHeader
+configuration = maxpanda_python_sdk.Configuration()
+configuration.api_key['X-API-KEY'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['X-API-KEY'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = maxpanda_python_sdk.POTemplatesApi()
+api_instance = maxpanda_python_sdk.POTemplatesApi(maxpanda_python_sdk.ApiClient(configuration))
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
 page = 56 # int | Page number to start retrieving data (similar to List View pagification) (optional)
@@ -52,7 +58,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[ApiKeyHeader](../README.md#ApiKeyHeader)
 
 ### HTTP request headers
 
@@ -74,8 +80,14 @@ import maxpanda_python_sdk
 from maxpanda_python_sdk.rest import ApiException
 from pprint import pprint
 
+# Configure API key authorization: ApiKeyHeader
+configuration = maxpanda_python_sdk.Configuration()
+configuration.api_key['X-API-KEY'] = 'YOUR_API_KEY'
+# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+# configuration.api_key_prefix['X-API-KEY'] = 'Bearer'
+
 # create an instance of the API class
-api_instance = maxpanda_python_sdk.POTemplatesApi()
+api_instance = maxpanda_python_sdk.POTemplatesApi(maxpanda_python_sdk.ApiClient(configuration))
 id = 56 # int | The Purchase Order Template id to retrieve
 site_id = 56 # int | Site ID can be found in your Maxpanda Site index or Sites API
 request_complete_information = true # bool | True option provides all the data fields. False will only return required fields
@@ -102,7 +114,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-No authorization required
+[ApiKeyHeader](../README.md#ApiKeyHeader)
 
 ### HTTP request headers
 
