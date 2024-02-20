@@ -27,7 +27,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import maxpanda_python_sdk
+import maxpanda_python_sdk 
 ```
 
 ### Setuptools
@@ -402,3 +402,5 @@ Class | Method | HTTP request | Description
 
 
 ## Author
+
+
