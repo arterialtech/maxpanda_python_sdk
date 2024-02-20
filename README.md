@@ -14,6 +14,9 @@ Python 2.7 and 3.4+
 
 ## Installation & Usage
 ### pip install
+```sh
+pip install maxpanda-python-sdk
+```
 
 If the python package is hosted on Github, you can install directly from Github
 
@@ -24,7 +27,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import maxpanda_python_sdk 
+import maxpanda_python_sdk
 ```
 
 ### Setuptools
@@ -40,6 +43,13 @@ Then import the package:
 ```python
 import maxpanda_python_sdk
 ```
+
+## Publish to PyPi
+
+- pip install --upgrade setuptools wheel twine
+- python3 setup.py sdist bdist_wheel
+- python3 -m twine upload dist/*
+
 
 ## Getting Started
 
@@ -392,5 +402,3 @@ Class | Method | HTTP request | Description
 
 
 ## Author
-
-

@@ -13,7 +13,7 @@
 from setuptools import setup, find_packages  # noqa: H301
 
 NAME = "maxpanda-python-sdk"
-VERSION = "1.0.0"
+VERSION = "0.0.2"
 # To install the library, run the following
 #
 # python setup.py install
@@ -27,13 +27,14 @@ setup(
     name=NAME,
     version=VERSION,
     description="Maxpanda API V1",
+    author="Arterial, LLC",
     author_email="",
-    url="",
+    url="https://github.com/arterialtech/maxpanda_python_sdk",
     keywords=["Swagger", "Maxpanda API V1"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
     long_description="""\
-    The Maxpanda API documentation for version 1  # noqa: E501
-    """
+    Swagger-codegen Auto-generated Python SDK for Maxpanda REST API
+    """,
 )
